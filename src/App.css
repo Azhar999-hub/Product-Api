@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+.container{
+    display:flex;
+}
+main{
+    width: 100%;
+    padding: 20px;
+}
+.sidebar{
+    background: rgb(2, 103, 255);
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+    transition: all 0.5s;
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+}
+.logo{
+    font-size: 30px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background:lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+}
+.active{
+    background: lightskyblue;
+    color: #000;
+}
+.icon, .link_text{
+    font-size: 20px;
+}
+
+/* ==================================== */
+
+
+.recent--patients {
+    margin-bottom: 20px;
+}
+
+.table {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid #f1f1f1;
+}
+
+td,
+th {
+    padding-block: 10px;
+}
+
+
+
+.doctors--right--btns {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    background-color: #5073fb;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.add:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.add i {
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #000;
+}
+
+.doctors--cards {
+    display: flex;
+    gap: 20px;
+}
+
+.doctor--card {
+    padding: 20px;
+    border-radius: 20px;
+    height: auto;
+    transition: .3s;
+    border: 2px solid #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: .8rem;
+}
+
+.doctor--card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img--box--cover {
+    border: 1px solid #5073fb;
+    padding: 2px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.img--box {
+    position: relative;
+    width: 71px;
+    height: 71px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.free {
+    color: #70d7a5;
+}
+
+.scheduled {
+    color: #5073fb;
+}
